@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Second Serve</title>
+  <meta name="description" content="Contact Second Serve to donate pickleballs, volunteer, or partner with our student-led nonprofit.">
+  <meta property="og:title" content="Contact Second Serve">
+  <meta property="og:description" content="Reach out to Second Serve for donations, volunteering, and partnerships.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Second Serve</a>
+      <button class="mobile-nav-toggle" aria-controls="main-navigation" aria-expanded="false">
+        <span class="sr-only">Open navigation menu</span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav id="main-navigation" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="donate.html">Donate</a>
+        <a href="impact.html">Impact</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-primary page-hero">
+      <div class="container">
+        <div class="page-hero-copy scroll-fade">
+          <p class="eyebrow">Contact</p>
+          <h1>Questions or partnerships?</h1>
+          <p>Send us a message and we’ll connect you with our team of student volunteers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-white" id="contact-form-section">
+      <div class="container contact-section scroll-fade">
+        <div class="contact-copy">
+          <p class="eyebrow">Get in touch</p>
+          <h2>We’re here to help.</h2>
+          <p>Please share your name, email, and message below. We’ll get back to you soon.</p>
+        </div>
+        <form id="contact-form" class="contact-form" novalidate>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button class="button button-primary" type="submit">Send Message</button>
+          <p id="form-success" class="form-success" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Second Serve</p>
+        <p>Student-led reuse for a brighter community.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div>
+        <h3>Connect</h3>
+        <div class="social-links">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Second Serve. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

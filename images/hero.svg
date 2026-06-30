@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" aria-hidden="true">
+  <defs>
+    <linearGradient id="yellowGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f9e364" />
+      <stop offset="100%" stop-color="#f6d03d" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2c6a3d" />
+      <stop offset="100%" stop-color="#1a4b2d" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="48" fill="#eff6ed" />
+  <circle cx="170" cy="180" r="60" fill="url(#yellowGrad)" opacity="0.95" />
+  <circle cx="116" cy="244" r="24" fill="#ffffff" opacity="0.7" />
+  <circle cx="262" cy="116" r="20" fill="#ffffff" opacity="0.8" />
+  <circle cx="430" cy="210" r="58" fill="url(#yellowGrad)" opacity="0.95" />
+  <path d="M470 260c-22 32-56 46-90 42-48-6-84-54-84-102 0-46 26-86 72-96l14-3c53-12 108 22 120 78 12 52-6 104-32 134z" fill="#fff" opacity="0.4" />
+  <rect x="520" y="90" width="210" height="290" rx="32" fill="#ffffff" opacity="0.95" />
+  <path d="M580 160h90v26h-90zm0 48h120v26h-120zm0 48h90v26h-90z" fill="#1f5a3d" opacity="0.9" />
+  <path d="M560 330c20 18 48 20 74 8 30-14 56-28 80-50v22c0 20-16 36-36 36H596c-20 0-36-16-36-36v-8z" fill="#fff" opacity="0.95" />
+  <path d="M520 380c10 18 28 28 50 30 20 2 40-6 54-20l36-36 26 24c20 18 24 48 10 72-20 34-69 40-102 14-36-28-42-84-18-124z" fill="url(#greenGrad)" opacity="0.9" />
+  <circle cx="620" cy="354" r="24" fill="#f6d03d" />
+  <circle cx="670" cy="122" r="45" fill="url(#yellowGrad)" />
+  <path d="M170 210c9 0 16 7 16 16s-7 16-16 16-16-7-16-16 7-16 16-16z" fill="#1f5a3d" />
+  <path d="M150 178c0-20 16-36 36-36h6c20 0 36 16 36 36v4c0 20-16 36-36 36h-6c-20 0-36-16-36-36v-4z" fill="#ffffff" opacity="0.8" />
+  <path d="M520 140c8 10 22 14 34 10 16-6 24-22 18-38-6-16-22-24-38-18-14 6-22 22-18 36 2 10 8 18 16 20z" fill="url(#yellowGrad)" />
+</svg>

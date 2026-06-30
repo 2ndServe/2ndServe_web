@@ -3,16 +3,268 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>2ndServe Hello World</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Second Serve | Giving Every Pickleball a Second Life</title>
+  <meta name="description" content="Second Serve is a student-led nonprofit giving used pickleballs a second life through reuse, education, and community support.">
+  <meta property="og:title" content="Second Serve | Giving Every Pickleball a Second Life">
+  <meta property="og:description" content="A student-run nonprofit reusing used pickleballs for schools, shelters, and community projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero.svg">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <main>
-    <div class="card">
-      <h1>Hello, world!</h1>
-      <p>Welcome to the 2ndServe GitHub Pages demo website.</p>
-      <p>This page is deployed automatically from the <code>public/</code> folder.</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Second Serve</a>
+      <button class="mobile-nav-toggle" aria-controls="main-navigation" aria-expanded="false">
+        <span class="sr-only">Open navigation menu</span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav id="main-navigation" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="donate.html">Donate</a>
+        <a href="impact.html">Impact</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
+
+  <main>
+    <section class="hero section-primary" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy scroll-fade">
+          <span class="eyebrow">Student-powered sustainability</span>
+          <h1>Second Serve</h1>
+          <p>Giving every pickleball a second life through reuse, education, and community impact.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="donate.html">Donate Pickleballs</a>
+            <a class="button button-secondary" href="#about">Learn More</a>
+          </div>
+        </div>
+        <div class="hero-visual scroll-fade">
+          <img src="images/hero.svg" alt="Illustration of pickleballs being transformed into new community items" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light" id="about">
+      <div class="container">
+        <div class="section-header scroll-fade">
+          <p class="eyebrow">About Second Serve</p>
+          <h2>We give used pickleballs a second life.</h2>
+          <p>Second Serve is a student-led nonprofit that collects used pickleballs and transforms them into new products for schools, shelters, and community groups.</p>
+        </div>
+        <div class="about-grid scroll-fade">
+          <div class="feature-card">
+            <h3>Mission</h3>
+            <p>Reduce waste while helping schools, shelters, and the community through creative reuse.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Values</h3>
+            <ul>
+              <li>Sustainability</li>
+              <li>Creativity</li>
+              <li>Community</li>
+              <li>Education</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-white" id="work">
+      <div class="container">
+        <div class="section-header scroll-fade">
+          <p class="eyebrow">What We Do</p>
+          <h2>Reuse projects that inspire students and families.</h2>
+        </div>
+        <div class="grid cards-grid">
+          <article class="info-card scroll-fade">
+            <div class="icon">🐾</div>
+            <h3>Dog Treat Puzzles</h3>
+            <p>Convert pickleballs into playful treat puzzles for pets and shelters.</p>
+          </article>
+          <article class="info-card scroll-fade">
+            <div class="icon">🌱</div>
+            <h3>Seed Starters</h3>
+            <p>Turn pickleballs into lightweight starter pots for school garden projects.</p>
+          </article>
+          <article class="info-card scroll-fade">
+            <div class="icon">🏫</div>
+            <h3>PE Class Reuse</h3>
+            <p>Support physical education with recycled gear and creative lesson resources.</p>
+          </article>
+          <article class="info-card scroll-fade">
+            <div class="icon">🎨</div>
+            <h3>Painted Ornaments</h3>
+            <p>Design colorful community art and ornaments from reused balls.</p>
+          </article>
+          <article class="info-card scroll-fade">
+            <div class="icon">📱</div>
+            <h3>Phone Stands</h3>
+            <p>Craft easy phone stands from repurposed pickleball shells.</p>
+          </article>
+          <article class="info-card scroll-fade">
+            <div class="icon">🔌</div>
+            <h3>Cable Organizers</h3>
+            <p>Create tidy tech helpers from everyday recycled materials.</p>
+          </article>
+          <article class="info-card scroll-fade">
+            <div class="icon">💚</div>
+            <h3>Fundraising Projects</h3>
+            <p>Host events that support student groups and community causes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light" id="process">
+      <div class="container">
+        <div class="section-header scroll-fade">
+          <p class="eyebrow">Our Process</p>
+          <h2>How donated pickleballs become community impact.</h2>
+        </div>
+        <div class="timeline scroll-fade" aria-label="Second Serve process timeline">
+          <div class="timeline-step">Donate Used Pickleballs</div>
+          <div class="timeline-separator">↓</div>
+          <div class="timeline-step">Collection Bins</div>
+          <div class="timeline-separator">↓</div>
+          <div class="timeline-step">Sort & Clean</div>
+          <div class="timeline-separator">↓</div>
+          <div class="timeline-step">Create New Products</div>
+          <div class="timeline-separator">↓</div>
+          <div class="timeline-step">Donate or Fundraise</div>
+          <div class="timeline-separator">↓</div>
+          <div class="timeline-step">Help the Community</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-white" id="impact">
+      <div class="container">
+        <div class="section-header scroll-fade">
+          <p class="eyebrow">Impact</p>
+          <h2>Measured by the lives we touch.</h2>
+        </div>
+        <div class="grid impact-grid scroll-fade">
+          <div class="impact-card">
+            <p class="impact-value" data-target="2480">0</p>
+            <p>Pickleballs Collected</p>
+          </div>
+          <div class="impact-card">
+            <p class="impact-value" data-target="1940">0</p>
+            <p>Pickleballs Reused</p>
+          </div>
+          <div class="impact-card">
+            <p class="impact-value" data-target="22">0</p>
+            <p>Schools Helped</p>
+          </div>
+          <div class="impact-card">
+            <p class="impact-value" data-target="14">0</p>
+            <p>Community Partners</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light" id="map">
+      <div class="container">
+        <div class="section-header scroll-fade">
+          <p class="eyebrow">Find a Collection Bin</p>
+          <h2>Collection Bin Map</h2>
+          <p>Interactive map coming soon.</p>
+        </div>
+        <div class="map-placeholder scroll-fade">
+          <img src="images/map-placeholder.svg" alt="Interactive map coming soon" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section-white" id="involved">
+      <div class="container">
+        <div class="section-header scroll-fade">
+          <p class="eyebrow">Get Involved</p>
+          <h2>Choose how you support our mission.</h2>
+        </div>
+        <div class="grid cards-grid">
+          <article class="action-card scroll-fade">
+            <h3>Donate Pickleballs</h3>
+            <p>Find a bin, drop off used balls, and support our recycling mission.</p>
+            <a href="donate.html">Learn how</a>
+          </article>
+          <article class="action-card scroll-fade">
+            <h3>Volunteer</h3>
+            <p>Help sort, clean, and create new products in your community.</p>
+            <a href="contact.html">Get involved</a>
+          </article>
+          <article class="action-card scroll-fade">
+            <h3>Partner With Us</h3>
+            <p>Schools, shelters, and businesses can join our reuse and fundraising efforts.</p>
+            <a href="contact.html">Partner today</a>
+          </article>
+          <article class="action-card scroll-fade">
+            <h3>Support Our Mission</h3>
+            <p>Donate time, materials, or funding to help Second Serve grow.</p>
+            <a href="contact.html">Support now</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light" id="contact">
+      <div class="container contact-section scroll-fade">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2>Reach out to Second Serve</h2>
+          <p>Questions, partnerships, or volunteering — we’d love to hear from you.</p>
+        </div>
+        <form id="contact-form" class="contact-form" novalidate>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button class="button button-primary" type="submit">Send Message</button>
+          <p id="form-success" class="form-success" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Second Serve</p>
+        <p>Student-led reuse for a brighter community.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div>
+        <h3>Connect</h3>
+        <div class="social-links">
+          <a href="#" aria-label="Follow us on Facebook">Facebook</a>
+          <a href="#" aria-label="Follow us on Instagram">Instagram</a>
+          <a href="#" aria-label="Follow us on Twitter">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Second Serve. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
